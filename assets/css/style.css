@@ -7,8 +7,10 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* provided a fixed position for the header links on top */
 .header {
+    position: fixed;
+    top: 100;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -73,6 +75,7 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    
 }
 
 .benefits {
@@ -84,6 +87,10 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    
+        /* Added a border on all sides of the benefits section */
+    border: 4px solid darkblue;
+    
 }
 
 .benefit-lead {
@@ -133,7 +140,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Continued the borders around each element in the body */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -141,6 +148,8 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    border: 4px solid darkblue;
+
 }
 
 .online-reputation-management {
@@ -150,6 +159,8 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    border: 4px solid darkblue;
+
 }
 
 .social-media-marketing {
@@ -159,6 +170,8 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    border: 4px solid darkblue;
+
 }
 
 .search-engine-optimization img {
